@@ -14,7 +14,6 @@ def divide(x, y):
     else:
         return x / y
 while True:
-    # Display the menu
     print("\nMenu:")
     print("1. Add")
     print("2. Subtract")
