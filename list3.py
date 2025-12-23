@@ -1,9 +1,9 @@
-#WAP a program combine all first charcters from the given list of strings
-#x=["python","java","cpp","go"]
-#output:"pjcg"
-x=["python","java","cpp","go"]
-y=""
-for word in x:
-    #print(word[0])
-    y=y+word[0]
-print(f"Output:{y}")
+#WAP combine all list of strings with hypen(-)
+
+x=["name","harsha","vardhan"]
+#name-harsha-vardhan
+output=""
+for i in range(0,len(x)-1):
+    output=output+x[i]
+    output=output+"-"
+print(output)#+x[len(x)-1])
