@@ -1,0 +1,143 @@
+1) Define a list with numbers from 1 to 5 and find their total
+
+numbers = [1, 2, 3, 4, 5]
+total = 0
+for num in numbers:
+    total = total + num
+print("Total:", total)
+
+
+
+
+#2) Find the sum of numbers from 1 to 10
+
+sum = 0
+for i in range(1, 11):
+    sum = sum + i
+print("Sum:", sum)
+
+
+
+#3) Display numbers divisible by 3 from 1 to 100
+for i in range(1, 101):
+    if i % 3 == 0:
+        print(i)
+
+
+
+#4) Display all elements of a list
+x = [1, 2, 3, 4, 5, "vdac"]
+for item in x:
+    print(item)
+
+
+
+#5) Sum of the first 10 natural numbers
+sum = 0
+for i in range(1, 11):
+    sum = sum + i
+print("Sum:", sum)
+
+
+
+6) Sum of numbers from 1 to 100
+sum = 0
+for i in range(1, 101):
+    sum = sum + i
+print("Sum:", sum)
+
+
+
+7) Reverse a given string using a for loop
+string = "Python"
+reverse = ""
+for char in string:
+    reverse = char + reverse
+print("Reversed string:", reverse)
+
+
+
+8) Find even numbers from 1 to 20
+for i in range(1, 21):
+    if i % 2 == 0:
+        print(i)
+
+9) Print "Hello World" five times
+for i in range(5):
+    print("Hello World")
+
+
+
+10) Print numbers from 10 to 1 in reverse order
+for i in range(10, 0, -1):
+    print(i)
+
+
+
+11) Find the largest number in a list
+numbers = [10, 5, 30, 7, 40, 25]
+largest = numbers[0]
+for num in numbers:
+    if num > largest:
+        largest = num
+print("Largest number:", largest)
+
+
+
+12) Traverse a string and print each character
+text = "python program"
+for char in text:
+    print(char)
+
+
+13) Traverse and print each color
+colors = ("Red", "Green", "Blue", "Yellow", "White")
+for color in colors:
+    print(color)
+
+
+14) Print list elements in reverse order
+numbers = [10, 20, 30, 40, 50]
+for i in range(len(numbers) - 1, -1, -1):
+    print(numbers[i])
+
+
+16) Find the longest word in a list
+words = ["apple", "banana", "cherry", "strawberry", "grape"]
+longest = words[0]
+for word in words:
+    if len(word) > len(longest):
+        longest = word
+print("Longest word:", longest)
+
+
+
+17) Sum of numbers from 1 to 100 using for loop
+sum = 0
+for i in range(1, 101):
+    sum = sum + i
+print("Sum:", sum)
+
+
+
+18) Find the smallest number in a list
+numbers = [10, 5, 30, 7, 40, 25]
+smallest = numbers[0]
+for num in numbers:
+    if num < smallest:
+        smallest = num
+print("Smallest number:", smallest)
+
+
+
+19) Create a list of squares from 1 to 5
+squares = []
+for i in range(1, 6):
+    squares.append(i * i)
+print("Squares:", squares)
+
+
+20) Iterate over a tuple and print each element
+S = (100, 200, 300)
+for item in S:
+    print(item)
